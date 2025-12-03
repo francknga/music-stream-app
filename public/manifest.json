@@ -1,0 +1,58 @@
+{
+  "name": "Music Stream",
+  "short_name": "Music",
+  "description": "Streamez vos albums partout",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#7c3aed",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+```
+
+- **"Commit new file"**
+
+✅ **Votre projet est prêt sur GitHub !**
+
+---
+
+### ÉTAPE 4 : Déployer sur Vercel (3 min)
+
+1. **Allez sur** : **https://vercel.com**
+
+2. **Cliquez sur "Sign Up"** (S'inscrire)
+   - Choisissez **"Continue with GitHub"**
+   - Autorisez Vercel à accéder à votre GitHub
+
+3. **Une fois connecté :**
+   - Cliquez sur **"Add New..."** → **"Project"**
+   - Vous voyez votre repo `music-stream-app`
+   - Cliquez sur **"Import"**
+
+4. **Configuration du projet :**
+   - Framework Preset : **Vite** (devrait être détecté automatiquement)
+   - Root Directory : laissez `.` (par défaut)
+   - Build Command : `npm run build` (déjà rempli)
+   - Output Directory : `dist` (déjà rempli)
+   - Cliquez sur **"Deploy"**
+
+5. ⏳ **Attendez 2-3 minutes...**
+
+6. 🎉 **C'EST EN LIGNE !**
+
+Vous verrez :
+```
+✅ Deployment Complete
+Your project is live at: https://music-stream-app-xxxx.vercel.app
