@@ -11,7 +11,7 @@ const FIREBASE_CONFIG = {
   appId: "1:123456789:web:abcdef"
 };
 
-const ADMIN_EMAIL = "votre-email@gmail.com"; // Votre email admin
+const ADMIN_EMAIL = "franckngaphap@gmail.com"; // Votre email admin
 
 export default function MusicStreamApp() {
   const [user, setUser] = useState(null);
